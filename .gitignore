@@ -1,0 +1,10 @@
+.DS_Store
+__pycache__/
+.python-version
+.venv/
+.mypy_cache/
+.pytest_cache/
+*.log
+
+assets/
+voice_reactor.json
