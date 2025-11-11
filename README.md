@@ -79,6 +79,11 @@ Select the UI language from the drop-down in the top-left corner of the panel. T
 - **Allow drag** enables/disables click-drag repositioning (useful if you prefer a locked overlay).
 - **Remember position** captures the avatar’s coordinates whenever you move it, then restores them on the next launch.
 
+#### Saving, menu & shortcuts
+
+- **Save button** (or `Ctrl+S`) writes `voice_reactor.json`. A green confirmation briefly appears beside the button.
+- **Help > About** shows version info and project links; **Help > Shortcuts** lists every keyboard shortcut. F1 opens About anywhere. `Ctrl+Q` closes the panel, and **Help > Open Config Directory** reveals the folder that holds `voice_reactor.json`.
+
 ### Examples
 
 More examples and "how-to" will (or already are) be in [WIKI](https://github.com/403-html/voxsprite/wiki). 
@@ -86,8 +91,3 @@ More examples and "how-to" will (or already are) be in [WIKI](https://github.com
 ## License
 
 Project is licensed under MIT. More about it here [LICENSE](LICENSE).
-
-#### Saving, menu & shortcuts
-
-- **Save button** (or `Ctrl+S`) writes `voice_reactor.json`. A green confirmation briefly appears beside the button.
-- **Help > About** shows version info and project links; **Help > Shortcuts** lists every keyboard shortcut. F1 opens About anywhere. `Ctrl+Q` closes the panel, and **Help > Open Config Directory** reveals the folder that holds `voice_reactor.json`.
