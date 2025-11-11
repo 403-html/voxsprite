@@ -389,13 +389,13 @@ class PanelWindow(QMainWindow):
 
         homepage_action = QAction(t("menu.homepage"), self)
         homepage_action.triggered.connect(
-            lambda: QDesktopServices.openUrl(QUrl("https://github.com/ether/voice-png-reactor"))
+            lambda: QDesktopServices.openUrl(QUrl("https://github.com/403-html/voxsprite"))
         )
         help_menu.addAction(homepage_action)
 
         issues_action = QAction(t("menu.issues"), self)
         issues_action.triggered.connect(
-            lambda: QDesktopServices.openUrl(QUrl("https://github.com/ether/voice-png-reactor/issues"))
+            lambda: QDesktopServices.openUrl(QUrl("https://github.com/403-html/voxsprite/issues"))
         )
         help_menu.addAction(issues_action)
 
@@ -457,8 +457,8 @@ class PanelWindow(QMainWindow):
     def _show_about(self):
         dialog = AboutDialog(
             self,
-            homepage_url="https://github.com/ether/voice-png-reactor",
-            issues_url="https://github.com/ether/voice-png-reactor/issues",
+            homepage_url="https://github.com/403-html/voxsprite",
+            issues_url="https://github.com/403-html/voxsprite/issues",
         )
         dialog.exec()
 
