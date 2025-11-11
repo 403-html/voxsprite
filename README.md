@@ -79,6 +79,14 @@ Select the UI language from the drop-down in the top-left corner of the panel. T
 - **Allow drag** enables/disables click-drag repositioning (useful if you prefer a locked overlay).
 - **Remember position** captures the avatar’s coordinates whenever you move it, then restores them on the next launch.
 
+### Examples
+
+More examples and "how-to" will (or already are) be in [WIKI](https://github.com/403-html/voxsprite/wiki). 
+
+## License
+
+Project is licensed under MIT. More about it here [LICENSE](LICENSE).
+
 #### Saving, menu & shortcuts
 
 - **Save button** (or `Ctrl+S`) writes `voice_reactor.json`. A green confirmation briefly appears beside the button.
