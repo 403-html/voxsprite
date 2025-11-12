@@ -2,6 +2,8 @@
 
 Lightweight PyQt6 desktop panel for driving voice-reactive PNG avatars. The UI reacts to live microphone input, toggles talking frames based on configurable thresholds, animates idle sequences, and exposes chroma/layer controls for overlays.
 
+https://github.com/user-attachments/assets/fd7eec60-adce-4668-95f8-f4943ad3afc5
+
 ## Requirements
 
 - Python 3.10+  
